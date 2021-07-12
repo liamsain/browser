@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Dev\\c#\\RaylibBrowser\\RaylibBrowser\\RaylibBrowser.csproj": {}
+  },
+  "projects": {
+    "c:\\Dev\\c#\\RaylibBrowser\\RaylibBrowser\\RaylibBrowser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Dev\\c#\\RaylibBrowser\\RaylibBrowser\\RaylibBrowser.csproj",
+        "projectName": "RaylibBrowser",
+        "projectPath": "c:\\Dev\\c#\\RaylibBrowser\\RaylibBrowser\\RaylibBrowser.csproj",
+        "packagesPath": "C:\\Users\\liamk\\.nuget\\packages\\",
+        "outputPath": "c:\\Dev\\c#\\RaylibBrowser\\RaylibBrowser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\liamk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.33, )"
+            },
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
